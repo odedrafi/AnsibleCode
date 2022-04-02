@@ -33,7 +33,7 @@ after installation will need to edit our ansible files:
 
 ### now run the command
 
-> ansible-playbook -i <Inventory file path> <pPlaybook file path> --extra-vars "group=<sTaging/Production>"
+> ansible-playbook -i "Inventory file path" "Playbook file path" --extra-vars "group=<sTaging/Production>"
 
 in order to play the playbook with your configuration insted of the defulte ones
 
